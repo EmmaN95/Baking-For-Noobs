@@ -1,62 +1,59 @@
 body{
-    background-color: rgb(245, 226, 166);
+    background-color: #ffd4d7;
 }
 
 header{
-    background-color:#ffa51e;
+    background-color:#53b7d2;
     margin: auto;
     width: 55%;
     padding: 5px;
     height: 200px;
     margin-top: 100px;
-    box-shadow: 10px 10px #be7506;
+    box-shadow: 10px 10px #0584a7;
     border-top: solid black;
     border-left: solid black;
     border-right: solid black;
 }
-.title{
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Luckiest Guy', cursive, white;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px white;
-}
+
 
 .center {
-    background-color: #ffa51e;
+    background-color: #53b7d2;
     margin: auto;
     width: 55%;
     padding: 5px;
     height: auto;
     text-align: center;
-    box-shadow: 10px 10px #be7506;
+    box-shadow: 10px 10px #0584a7;
     border-bottom: solid black;
     border-left: solid black;
     border-right: solid black;
+    margin-bottom: 100px;
   }
 
 
 .straight-font{
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Spartan', sans-serif;
     text-align: center;
     font-size: 20px;
 }
 
 .curly-font{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 15px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
     width: 20%;
-    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 50px;
+    text-align: center;
+
   }
   
   /* Clear floats after image containers */
@@ -65,4 +62,17 @@ header{
     clear: both;
     display: table;
   }
+
+  .imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    border:1px solid black;
+  }
   
+ 
+
+  img{
+    text-align: center;
+  }
