@@ -95,7 +95,7 @@
        }
     
        nav ul li a:hover{
-          color:#ffffff;
+          color:#504f4f;
           text-decoration:underline;
           font-family: 'Montserrat', sans-serif;
        }
@@ -216,16 +216,6 @@
 
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 20%;
-  padding-left: 80px;
-  padding-right: 20px;
-  margin-left: 15px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  text-align: center;
-}
 
 .row::after {
   content: "";
@@ -238,14 +228,23 @@
     margin-left: 25%;
     width: 50%;
     height: auto;
-    text-align: center;
+    /* text-align: center; */
     background-color: rgb(243, 243, 243);
+    color: black;
   }
 
 img:hover{
   background-color: lightgray;
 }
 
+.t{
+  color: #000000;
+}
+.t:hover{
+  color: rgb(49, 49, 49);
+}
 
-    
-   
+
+
+ 
+

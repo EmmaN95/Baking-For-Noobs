@@ -3,7 +3,7 @@
           <ul>
           <li> <a href="index.php">Home</a></li>
           <li> <a href="recipes.php">Recipes</a></li>
-          <li> <a href="">Techniques</a></li>
+          <li> <a href="tech.php">Techniques</a></li>
           </ul>
         </nav>
           <br>
